@@ -1,12 +1,29 @@
 {
-  "name": "mc-datatable",
+  "name": "mc-data-table",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Abi Akindele [abbeymart | mconnect.biz]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbeymart/mc-datatable/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbeymart/mc-datatable.git"
+  },
+  "keywords": [
+    "datatable",
+    "data-table",
+    "data-view"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library" : "vue-cli-service build --target lib --name mc-data-table src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "main" : ".dist/mc-data-table.common.js",
+  "files": ["dist/*"],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
