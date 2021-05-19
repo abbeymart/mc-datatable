@@ -21,3 +21,14 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Project specific directories and files
+todos.md
+project.md
+src/config/secure
+
+# others
+.Rhistory
+mochawesome-report/
+src/config/secure/config.ts
+/debug.log
